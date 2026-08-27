@@ -1,6 +1,6 @@
-mod help;
+mod disks;
 
 fn main() {
-    help::help("jax");
-    println!("Hello, world!");
+
+    disks::disk_space();
 }
